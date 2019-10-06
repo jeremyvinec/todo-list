@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/classnames": "^2.2.9",
+    "classnames": "^2.2.6",
     "cross-env": "^6.0.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -22,6 +24,9 @@
   "devDependencies": {
     "@types/react": "^16.9.5",
     "@types/react-dom": "^16.9.1",
+    "tslint": "^5.20.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-loader": "^3.5.4",
     "webpack-cli": "^3.3.9"
   }
 }

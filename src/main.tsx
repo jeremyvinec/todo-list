@@ -1,7 +1,8 @@
 import * as React from 'react'
 import { render } from 'react-dom'
+import TodoList from './TodoList'
 
 render(
-    <div>Salut les gens</div>,
+    <TodoList/>,
     document.getElementById('app')
 )

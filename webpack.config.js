@@ -11,8 +11,17 @@ let config = {
     resolve: {
         extensions: ['.js', '.ts', '.tsx']
     },
+    devServer: {
+        noInfo: true
+    },
     module : {
         rules: [
+            {
+                test: /\.tsx?/,
+                loader: 'tslint-loader',
+                enforce: 'pre',
+                exclude: [/node_mudules/]
+            },
             {
                 test: /\.tsx?/,
                 loader: 'ts-loader',
