@@ -4,5 +4,5 @@ import TodoList from './TodoList'
 
 render(
     <TodoList/>,
-    document.getElementById('app')
+    document.getElementById('app') as Element
 )
